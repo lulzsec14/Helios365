@@ -31,8 +31,6 @@ function ResponsiveAppBar() {
   return (
     <Box
       style={{
-        // backgroundImage:
-        //   'url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8)',
         backgroundImage: `url(${BackgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -81,7 +79,6 @@ function ResponsiveAppBar() {
             display: 'felx',
             flexDirection: 'column',
             alignItems: 'initial',
-            // position: 'relative',
           }}
         >
           <Container>
@@ -92,7 +89,6 @@ function ResponsiveAppBar() {
               fontSize={60}
               mt={24}
               ml={-16}
-              // sx={{position: 'fixed', top: 310, left: 280}}
             >
               Grow Your Business Value
               <br />

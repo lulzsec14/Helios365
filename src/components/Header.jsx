@@ -26,17 +26,6 @@ const localFontTheme = createTheme({
   },
 });
 
-// const cardContentColor = createTheme({
-//   palette: {
-//     primary: {
-//       main: '#153150',
-//     },
-//     secondary: {
-//       main: '#eeeeee',
-//     },
-//   },
-// });
-
 const cardInfo = [
   {
     ind: 0,

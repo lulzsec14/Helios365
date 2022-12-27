@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { Typography, createTheme, ThemeProvider } from '@mui/material';
-// import Typography from './Typography';
 import ZohoCampaign from '../images/zohocampaigns.png';
 import ZohoSites from '../images/zohosites.png';
 import ZohoSalesIq from '../images/zohosalesiq.png';

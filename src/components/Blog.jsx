@@ -17,10 +17,6 @@ import Blog1 from '../images/blog1.png';
 import Blog2 from '../images/blog2.png';
 import Blog3 from '../images/blog3.png';
 
-import Icon1 from '../images/icon.svg';
-import Icon2 from '../images/icon1.svg';
-import Icon3 from '../images/icon2.svg';
-
 const aboutColor = createTheme({
   palette: {
     primary: {

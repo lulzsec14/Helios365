@@ -53,7 +53,6 @@ const WebServices = () => {
             Services
           </Typography>
           <Typography
-            // maxWidth={'80%'}
             fontSize={16}
             color={'#424242'}
             mt={2}
