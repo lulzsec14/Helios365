@@ -39,6 +39,12 @@ const aboutColor = createTheme({
       color: '#ffffff',
     },
   },
+  // breakpoints:{
+  //   values: {
+  //     mobiles: 0,
+  //     tablet: 600
+  //   }
+  // }
 });
 
 const Footer = () => {
@@ -46,7 +52,7 @@ const Footer = () => {
     <Box
       style={{
         backgroundColor: '#153150',
-        height: 612,
+        height: 'auto',
       }}
     >
       <ThemeProvider theme={aboutColor}>

@@ -55,7 +55,7 @@ const FormSection = () => {
         backgroundImage: `url(${BackgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        zIndex: 2,
+        // zIndex: 2,
       }}
     >
       <ThemeProvider theme={aboutColor}>

@@ -23,17 +23,22 @@ const localButtonTheme = createTheme({
       textTransform: 'none',
       fontSize: 16,
     },
-    fontSize: 20,
+    // fontSize: 20,
   },
 });
 
 function ResponsiveAppBar() {
   return (
     <Box
-      style={{
+      sx={{
         backgroundImage: `url(${BackgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
+        // backgroundSize: {
+        //   sx: 'center',
+        //   sm: 'cover',
+        // },
+
         // height: '90vh',
       }}
     >
@@ -43,8 +48,19 @@ function ResponsiveAppBar() {
       >
         <Container maxWidth="xl">
           <Toolbar>
-            <Box sx={{ m: 1.5 }}>
-              <img src={MainLogo} style={{ height: 95.39 }} alt="Logo" />
+            <Box
+              sx={{
+                m: 1.5,
+                height: { sx: 75.39, sm: 95.39 },
+                width: 350,
+              }}
+            >
+              <img
+                src={MainLogo}
+                style={{ height: '100%', width: '100%' }}
+                // sx={{ height: '95.39px', width: '350px' }}
+                alt="Logo"
+              />
             </Box>
             <Box
               sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}
@@ -73,7 +89,7 @@ function ResponsiveAppBar() {
           </Toolbar>
         </Container>
       </AppBar>
-      <Box sx={{ flexGrow: 1 }}>
+      <Box width={'100%'}>
         <Container
           sx={{
             display: 'felx',
@@ -81,30 +97,40 @@ function ResponsiveAppBar() {
             alignItems: 'initial',
           }}
         >
-          <Container>
-            <Typography
+          {/* <Container> */}
+          <Typography
+            align="left"
+            gutterBottom
+            color="white"
+            // fontSize={60}
+            mt={24}
+            sx={{
+              fontSize: {
+                xs: 35,
+                sm: 40,
+                md: 55,
+                lg: 60,
+                xl: 60,
+              },
+            }}
+            // ml={-16}
+          >
+            Grow Your Business Value
+            <br />
+            with Talented People
+          </Typography>
+          <ThemeProvider theme={localButtonTheme}>
+            <Button
               align="left"
-              gutterBottom
-              color="white"
-              fontSize={60}
-              mt={24}
-              ml={-16}
+              variant="outlined"
+              color="primary"
+              // sx={{ borderRadius: '0.5rem', color: '#fff', ml: -16, mb: 35 }}
+              sx={{ borderRadius: '0.5rem', color: '#fff', mb: 35 }}
             >
-              Grow Your Business Value
-              <br />
-              with Talented People
-            </Typography>
-            <ThemeProvider theme={localButtonTheme}>
-              <Button
-                align="left"
-                variant="outlined"
-                color="primary"
-                sx={{ borderRadius: '0.5rem', color: '#fff', ml: -16, mb: 35 }}
-              >
-                Our Services
-              </Button>
-            </ThemeProvider>
-          </Container>
+              Our Services
+            </Button>
+          </ThemeProvider>
+          {/* </Container> */}
         </Container>
       </Box>
     </Box>

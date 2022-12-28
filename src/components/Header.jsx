@@ -19,7 +19,7 @@ const localFontTheme = createTheme({
   },
   typography: {
     fontFamily: ['poppins'],
-    fontSize: 48,
+    // fontSize: 48,
     button: {
       textTransform: 'none',
     },
@@ -55,10 +55,35 @@ const Header = () => {
     <Box sx={{ background: '#EEEEEE', overflow: 'hidden' }}>
       {/* <Container m={5}> */}
       <ThemeProvider theme={localFontTheme}>
-        <Typography mt={10} color="primary" style={{ display: 'inline-block' }}>
+        <Typography
+          mt={10}
+          color="primary"
+          style={{ display: 'inline-block' }}
+          sx={{
+            fontSize: {
+              xs: 30,
+              sm: 34,
+              md: 38,
+              lg: 40,
+              xl: 48,
+            },
+          }}
+        >
           What we&nbsp;
         </Typography>
-        <Typography color="secondary" style={{ display: 'inline-block' }}>
+        <Typography
+          color="secondary"
+          style={{ display: 'inline-block' }}
+          sx={{
+            fontSize: {
+              xs: 30,
+              sm: 34,
+              md: 38,
+              lg: 40,
+              xl: 48,
+            },
+          }}
+        >
           do
         </Typography>
         <Box sx={{ flexGrow: 1 }}>
@@ -69,8 +94,16 @@ const Header = () => {
                   <Paper
                     p={3}
                     sx={{
-                      height: 440,
-                      width: 385,
+                      // height: 440,
+                      // width: 385,
+                      height: {
+                        xs: 420,
+                        sm: 440,
+                      },
+                      width: {
+                        xs: 305,
+                        sm: 385,
+                      },
                       p: 3,
                       borderRadius: '1rem',
                     }}
@@ -102,8 +135,16 @@ const Header = () => {
                 <Grid key={1} item>
                   <Paper
                     sx={{
-                      height: 440,
-                      width: 385,
+                      // height: 440,
+                      // width: 385,
+                      height: {
+                        xs: 420,
+                        sm: 440,
+                      },
+                      width: {
+                        xs: 305,
+                        sm: 385,
+                      },
                       p: 3,
                       borderRadius: '1rem',
                     }}
@@ -134,8 +175,16 @@ const Header = () => {
                 <Grid key={2} item>
                   <Paper
                     sx={{
-                      height: 440,
-                      width: 385,
+                      // height: 440,
+                      // width: 385,
+                      height: {
+                        xs: 420,
+                        sm: 440,
+                      },
+                      width: {
+                        xs: 305,
+                        sm: 385,
+                      },
                       p: 3,
                       borderRadius: '1rem',
                     }}
