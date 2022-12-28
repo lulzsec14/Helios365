@@ -34,7 +34,7 @@ function ResponsiveAppBar() {
         backgroundImage: `url(${BackgroundImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        height: '90vh',
+        // height: '90vh',
       }}
     >
       <AppBar
@@ -99,8 +99,7 @@ function ResponsiveAppBar() {
                 align="left"
                 variant="outlined"
                 color="primary"
-                sx={{ borderRadius: '0.5rem', color: '#fff', ml: -16 }}
-                ml={-16}
+                sx={{ borderRadius: '0.5rem', color: '#fff', ml: -16, mb: 35 }}
               >
                 Our Services
               </Button>

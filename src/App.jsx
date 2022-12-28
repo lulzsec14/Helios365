@@ -7,6 +7,8 @@ import WebServices from './components/WebServices';
 import Clients from './components/Clients';
 import Blog from './components/Blog';
 import MediaSection from './components/MediaSection';
+import FormSection from './components/FormSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Blog />
         <MediaSection />
       </div>
+      <FormSection />
+      <Footer />
     </div>
   );
 }
