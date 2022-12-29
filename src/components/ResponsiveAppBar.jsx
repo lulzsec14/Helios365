@@ -112,6 +112,7 @@ function ResponsiveAppBar() {
                 lg: 60,
                 xl: 60,
               },
+              fontWeight: 600,
             }}
             // ml={-16}
           >
@@ -125,7 +126,13 @@ function ResponsiveAppBar() {
               variant="outlined"
               color="primary"
               // sx={{ borderRadius: '0.5rem', color: '#fff', ml: -16, mb: 35 }}
-              sx={{ borderRadius: '0.5rem', color: '#fff', mb: 35 }}
+              sx={{
+                borderRadius: '0.5rem',
+                color: '#fff',
+                mb: 35,
+                fontWeight: 600,
+                // border: '2px solid #CC8712',
+              }}
             >
               Our Services
             </Button>

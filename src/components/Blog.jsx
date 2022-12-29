@@ -30,6 +30,7 @@ const aboutColor = createTheme({
     fontFamily: ['poppins'],
     button: {
       textTransform: 'none',
+      fontWeight: 600,
     },
   },
 });
@@ -43,7 +44,7 @@ const Blog = () => {
             component="span"
             fontSize={42}
             color="primary"
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
             mt={8}
           >
             Blo
@@ -52,7 +53,7 @@ const Blog = () => {
             component="span"
             fontSize={42}
             color="secondary"
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
           >
             g
           </Typography>
@@ -63,19 +64,34 @@ const Blog = () => {
               <Grid key={1} item>
                 <Card
                   sx={{
-                    width: 400,
-                    height: 570,
+                    // width: 400,
+                    // height: 570,
+                    width: { xs: 305, sm: 400 },
+                    height: { xs: 'auto', sm: 570 },
                     borderRadius: '10',
                     boxShadow: 6,
                   }}
                 >
-                  <CardMedia sx={{ height: 267 }} image={Blog1} />
+                  <CardMedia
+                    sx={{ height: 267, width: 'auto ' }}
+                    image={Blog1}
+                  />
                   <Box p={2}>
                     <CardContent>
-                      <Typography gutterBottom fontSize={20} component="div">
+                      <Typography
+                        gutterBottom
+                        fontSize={20}
+                        component="div"
+                        fontWeight={600}
+                      >
                         The CRM Zen Show
                       </Typography>
-                      <Typography mt={2} fontSize={14} color="#424242">
+                      <Typography
+                        mt={2}
+                        fontSize={14}
+                        color="#757575"
+                        fontWeight={500}
+                      >
                         {
                           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                         }
@@ -90,19 +106,34 @@ const Blog = () => {
               <Grid key={2} item>
                 <Card
                   sx={{
-                    width: 400,
-                    height: 570,
+                    // width: 400,
+                    // height: 570,
+                    width: { xs: 305, sm: 400 },
+                    height: { xs: 'auto', sm: 570 },
                     borderRadius: '10',
                     boxShadow: 6,
                   }}
                 >
-                  <CardMedia sx={{ height: 267 }} image={Blog2} />
+                  <CardMedia
+                    sx={{ height: 267, width: 'auto ' }}
+                    image={Blog2}
+                  />
                   <Box p={2}>
                     <CardContent>
-                      <Typography gutterBottom fontSize={20} component="div">
+                      <Typography
+                        gutterBottom
+                        fontSize={20}
+                        component="div"
+                        fontWeight={600}
+                      >
                         Zoho Blogs
                       </Typography>
-                      <Typography mt={2} fontSize={14} color="#424242">
+                      <Typography
+                        mt={2}
+                        fontSize={14}
+                        color="#757575"
+                        fontWeight={500}
+                      >
                         {
                           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                         }
@@ -117,19 +148,34 @@ const Blog = () => {
               <Grid key={3} item>
                 <Card
                   sx={{
-                    width: 400,
-                    height: 570,
+                    // width: 400,
+                    // height: 570,
+                    width: { xs: 305, sm: 400 },
+                    height: { xs: 'auto', sm: 570 },
                     borderRadius: '10',
                     boxShadow: 6,
                   }}
                 >
-                  <CardMedia sx={{ height: 267 }} image={Blog3} />
+                  <CardMedia
+                    sx={{ height: 267, width: 'auto ' }}
+                    image={Blog3}
+                  />
                   <Box p={2}>
                     <CardContent>
-                      <Typography gutterBottom fontSize={20} component="div">
+                      <Typography
+                        gutterBottom
+                        fontSize={20}
+                        component="div"
+                        fontWeight={600}
+                      >
                         Zoho Forum
                       </Typography>
-                      <Typography mt={2} fontSize={14} color="#424242">
+                      <Typography
+                        mt={2}
+                        fontSize={14}
+                        color="#757575"
+                        fontWeight={500}
+                      >
                         {
                           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                         }

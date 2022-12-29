@@ -39,27 +39,57 @@ const ZohoSection = () => {
     <Box component="section" sx={{ overflow: 'hidden', bgcolor: '#F4F6FC' }}>
       <ThemeProvider theme={aboutColor}>
         <Container sx={{ mb: 2 }}>
-          <Typography fontSize={42} color="primary" align="center" mt={8}>
+          <Typography
+            // fontSize={42}
+            color="primary"
+            align="center"
+            mt={8}
+            sx={{
+              fontWeight: 600,
+              fontSize: {
+                xs: 38,
+                lg: 40,
+                xl: 48,
+              },
+            }}
+          >
             We are a passionate and dedicated
           </Typography>
           <Typography
-            fontSize={42}
+            // fontSize={42}
             color="primary"
-            style={{ display: 'inline-block' }}
+            sx={{
+              display: 'inline-block',
+              fontWeight: 600,
+              fontSize: {
+                xs: 38,
+                lg: 40,
+                xl: 48,
+              },
+            }}
           >
             Zoho&nbsp;
           </Typography>
           <Typography
-            fontSize={42}
+            // fontSize={42}
             color="secondary"
-            style={{ display: 'inline-block' }}
+            sx={{
+              display: 'inline-block',
+              fontWeight: 600,
+              fontSize: {
+                xs: 38,
+                lg: 40,
+                xl: 48,
+              },
+            }}
           >
             Consulting Company
           </Typography>
           <Typography
             // maxWidth={'80%'}
             fontSize={16}
-            color={'#424242'}
+            // color={'#757575'}
+            color={'#757575'}
             mt={2}
             ml={3}
             align={'center'}
@@ -82,17 +112,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Campaigns
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Campaigns is an email marketing automation product that helps you reach your subscribers with the right message at the right time.'
@@ -109,17 +145,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Sites
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Sites is an intuitive, drag-and-drop website builder. Create beautiful websites with our elements and pre-built sections.'
@@ -136,17 +178,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Sales IQ
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho SalesIQ is a customer engagement platform with live chat, website visitor tracking, and analytics capabilities that helps you know your visitors'
@@ -165,17 +213,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Bookings
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Bookings syncs your calendars while letting customers self-schedule and pay for appointments. Say hello to smart scheduling!'
@@ -192,17 +246,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho CRM
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'CRM is an approach that helps businesses improve existing customer relationships and acquire new customers faster.'
@@ -219,17 +279,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Creator
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Creator is a cloud software to create custom applications on your own without the need for any coding experience.'
@@ -248,17 +314,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Books
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Books is your one-stop platform for managing your accounting tasks and organizing your transactions.'
@@ -275,17 +347,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Forms
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Forms is an online form builder that backs up data on the cloud. With a drag-and-drop form builder that is responsive on all mobile devices.'
@@ -302,17 +380,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Sign
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Sign helps you sign business documents directly from other popular Zoho apps and third-party apps.'
@@ -331,17 +415,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Mail
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Mail is a secure and reliable business email solution tailor-made for your organization’s communication needs.'
@@ -358,17 +448,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Desk
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Desk is a cloud-based help desk solution from Zoho Corporation, catering to businesses of all sizes like customer support tickets and portals.'
@@ -385,17 +481,23 @@ const ZohoSection = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        fontWeight={600}
+                      >
                         Zoho Recruit
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        fontWeight={500}
                       >
                         {
                           'Zoho Recruit is an all-in-one Applicant Tracking System (ATS) and recruitment software for staffing agencies and recruitment professionals.'

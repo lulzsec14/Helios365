@@ -32,19 +32,19 @@ const MediaSection = () => {
             color="primary"
             align="center"
             mt={8}
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
           >
             This Week's&nbsp;
           </Typography>
           <Typography
             fontSize={42}
             color="secondary"
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
           >
             CRM
           </Typography>
         </Container>
-        <Box mb={8} mt={7}>
+        <Box mb={15} mt={7} p={2}>
           <YoutubeEmbed embedId="rokGy0huYEA" />
         </Box>
       </ThemeProvider>

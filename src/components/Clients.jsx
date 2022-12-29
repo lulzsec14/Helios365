@@ -41,14 +41,14 @@ const Clients = () => {
             color="primary"
             align="center"
             mt={8}
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
           >
             Our&nbsp;
           </Typography>
           <Typography
             fontSize={42}
             color="secondary"
-            style={{ display: 'inline-block' }}
+            sx={{ display: 'inline-block', fontWeight: 600 }}
           >
             Clients
           </Typography>
@@ -60,7 +60,7 @@ const Clients = () => {
                 <Grid key={1} item>
                   <Box
                     sx={{
-                      height: 100,
+                      height: 90,
                       width: 256,
                       boxShadow: 6,
                       // p: 3,
@@ -68,7 +68,8 @@ const Clients = () => {
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -84,7 +85,9 @@ const Clients = () => {
                 <Grid key={2} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       // p: 3,
@@ -92,7 +95,8 @@ const Clients = () => {
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -108,14 +112,16 @@ const Clients = () => {
                 <Grid key={3} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -131,14 +137,17 @@ const Clients = () => {
                 <Grid key={4} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -154,14 +163,17 @@ const Clients = () => {
                 <Grid key={5} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -179,14 +191,17 @@ const Clients = () => {
                 <Grid key={6} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -202,14 +217,16 @@ const Clients = () => {
                 <Grid key={7} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -225,14 +242,17 @@ const Clients = () => {
                 <Grid key={8} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>
@@ -248,14 +268,17 @@ const Clients = () => {
                 <Grid key={9} item>
                   <Box
                     sx={{
-                      height: 100,
+                      // height: 100,
+                      height: 90,
+
                       width: 256,
                       boxShadow: 6,
                       backgroundColor: '#ffffff',
                       borderBottomLeftRadius: '2rem',
                       borderTopRightRadius: '2rem',
                       textAlign: 'center',
-                      border: 1,
+                      // border: 1,
+                      padding: 1,
                     }}
                   >
                     <Box sx={{ mt: 2 }}>

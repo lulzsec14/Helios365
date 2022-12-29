@@ -61,12 +61,12 @@ const Header = () => {
           style={{ display: 'inline-block' }}
           sx={{
             fontSize: {
-              xs: 30,
-              sm: 34,
+              xs: 38,
               md: 38,
               lg: 40,
               xl: 48,
             },
+            fontWeight: 600,
           }}
         >
           What we&nbsp;
@@ -76,11 +76,11 @@ const Header = () => {
           style={{ display: 'inline-block' }}
           sx={{
             fontSize: {
-              xs: 30,
-              sm: 34,
+              xs: 38,
               md: 38,
               lg: 40,
               xl: 48,
+              fontWeight: 600,
             },
           }}
         >
@@ -118,15 +118,26 @@ const Header = () => {
                     </Box>
                     {/* <ThemeProvider theme={cardContentColor}> */}
                     <Container mt={3}>
-                      <Typography fontSize={20} color="primary" mt={3.5}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={3.5}
+                        fontWeight={600}
+                      >
                         Zoho Consulting & <br /> Implementation
                       </Typography>
 
-                      <Typography fontSize={14} color={'#424242'} mt={2.5}>
+                      <Typography fontSize={14} color={'#757575'} mt={2.5}>
                         {cardInfo[0].mainContent}
                       </Typography>
                       {/* </ThemeProvider> */}
-                      <Button style={{ fontSize: 16, color: '#CC8712' }}>
+                      <Button
+                        style={{
+                          fontSize: 16,
+                          color: '#CC8712',
+                          fontWeight: 600,
+                        }}
+                      >
                         {'Read More >>'}
                       </Button>
                     </Container>
@@ -159,13 +170,24 @@ const Header = () => {
                     </Box>
                     {/* <ThemeProvider theme={cardContentColor}> */}
                     <Container mt={3}>
-                      <Typography fontSize={20} color="primary" mt={3.5}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={3.5}
+                        fontWeight={600}
+                      >
                         Zoho Finance <br /> Services
                       </Typography>
-                      <Typography fontSize={14} color={'#424242'} mt={2.5}>
+                      <Typography fontSize={14} color={'#757575'} mt={2.5}>
                         {cardInfo[1].mainContent}
                       </Typography>
-                      <Button style={{ fontSize: 16, color: '#CC8712' }}>
+                      <Button
+                        style={{
+                          fontSize: 16,
+                          color: '#CC8712',
+                          fontWeight: 600,
+                        }}
+                      >
                         {'Read More >>'}
                       </Button>
                     </Container>
@@ -199,13 +221,24 @@ const Header = () => {
                     </Box>
                     {/* <ThemeProvider theme={cardContentColor}> */}
                     <Container mt={3}>
-                      <Typography fontSize={20} color="primary" mt={3.5}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={3.5}
+                        fontWeight={600}
+                      >
                         Web <br /> Services
                       </Typography>
-                      <Typography fontSize={14} color={'#424242'} mt={2.5}>
+                      <Typography fontSize={14} color={'#757575'} mt={2.5}>
                         {cardInfo[2].mainContent}
                       </Typography>
-                      <Button style={{ fontSize: 16, color: '#CC8712' }}>
+                      <Button
+                        style={{
+                          fontSize: 16,
+                          color: '#CC8712',
+                          fontWeight: 600,
+                        }}
+                      >
                         {'Read More >>'}
                       </Button>
                     </Container>

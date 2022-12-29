@@ -38,23 +38,39 @@ const WebServices = () => {
       <ThemeProvider theme={aboutColor}>
         <Container sx={{ mb: 2 }}>
           <Typography
-            fontSize={42}
+            // fontSize={42}
             color="primary"
-            style={{ display: 'inline-block' }}
+            sx={{
+              display: 'inline-block',
+              fontWeight: 600,
+              fontSize: {
+                xs: 38,
+                lg: 40,
+                xl: 48,
+              },
+            }}
             mt={8}
           >
             Web&nbsp;
           </Typography>
           <Typography
-            fontSize={42}
+            // fontSize={42}
             color="secondary"
-            style={{ display: 'inline-block' }}
+            sx={{
+              display: 'inline-block',
+              fontWeight: 600,
+              fontSize: {
+                xs: 38,
+                lg: 40,
+                xl: 48,
+              },
+            }}
           >
             Services
           </Typography>
           <Typography
             fontSize={16}
-            color={'#424242'}
+            color={'#757575'}
             mt={2}
             ml={3}
             align={'center'}
@@ -72,8 +88,10 @@ const WebServices = () => {
                 <Grid key={1} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -87,17 +105,23 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Web Design & Development
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        sx={{ fontWeight: 500 }}
                       >
                         {
                           'Zoho Campaigns is an email marketing automation product that helps you reach your subscribers with the right message at the right time.'
@@ -109,8 +133,10 @@ const WebServices = () => {
                 <Grid key={2} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -124,17 +150,23 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Mobile App Development
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
                         textAlign={'center'}
+                        sx={{ fontWeight: 500 }}
                       >
                         {
                           'Zoho Sites is an intuitive, drag-and-drop website builder. Create beautiful websites with our elements and pre-built sections.'
@@ -146,8 +178,10 @@ const WebServices = () => {
                 <Grid key={3} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -161,13 +195,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Ecommerce Solutions
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -185,8 +224,10 @@ const WebServices = () => {
                 <Grid key={4} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -200,13 +241,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Search Engine Optimization
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -222,8 +268,10 @@ const WebServices = () => {
                 <Grid key={5} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -237,13 +285,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Social Media Marketing
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -259,8 +312,10 @@ const WebServices = () => {
                 <Grid key={6} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -274,13 +329,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Content Marketing
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -298,8 +358,10 @@ const WebServices = () => {
                 <Grid key={7} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -313,13 +375,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Python Development
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -335,8 +402,10 @@ const WebServices = () => {
                 <Grid key={8} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -350,13 +419,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Node JS
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
@@ -372,8 +446,10 @@ const WebServices = () => {
                 <Grid key={9} item>
                   <Box
                     sx={{
-                      height: 247,
-                      width: 347,
+                      // height: 247,
+                      // width: 347,
+                      width: { xs: 305, sm: 347 },
+                      height: { xs: 'auto', sm: 247 },
                       boxShadow: 6,
                       p: 3,
                       backgroundColor: '#ffffff',
@@ -387,13 +463,18 @@ const WebServices = () => {
                         style={{ height: 80, width: 80 }}
                         alt="Logo"
                       />
-                      <Typography fontSize={20} color="primary" mt={2}>
+                      <Typography
+                        fontSize={20}
+                        color="primary"
+                        mt={2}
+                        sx={{ fontWeight: 600 }}
+                      >
                         Database Management
                       </Typography>
                       <Typography
                         // maxWidth={'80%'}
                         fontSize={14}
-                        color={'#424242'}
+                        color={'#757575'}
                         mt={1}
                         // ml={3}
                         align={'center'}
